@@ -7,7 +7,7 @@ import { BookingSection } from "@/components/booking-section"
 import { SiteFooter } from "@/components/site-footer"
 import { ChronosBubble } from "@/components/chronos-bubble"
 
-export default function Page() {
+export default function App() {
   return (
     <main className="relative min-h-screen overflow-x-hidden">
       <SiteHeader />

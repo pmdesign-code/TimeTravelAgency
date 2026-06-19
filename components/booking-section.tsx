@@ -78,7 +78,7 @@ export function BookingSection() {
 
             <div className="grid gap-2">
               <Label htmlFor="destination">Destination</Label>
-              <Select value={destination} onValueChange={setDestination} required>
+              <Select value={destination} onValueChange={(v) => setDestination(v ?? "")} required>
                 <SelectTrigger id="destination" className="bg-input/40">
                   <SelectValue placeholder="Choisissez une époque" />
                 </SelectTrigger>
